@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: #F45B69;
+    --cor1: #1F2041;
+    --cor2: #4B3F72;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;  
+    background-image: linear-gradient(to bottom, #1f2041, #4b3f72);
+    height: 100vh;
+    width: 100%;
+}
+
+.h1-box {
+    color: white;
+    display: block;
+    font-size: 29px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.p-box {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.form {
+    height: 540px;
+    background-color: white;
+    padding: 20px;
+    display: block;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#label-one {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 15px;
+}
+
+#label-two {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+
+#label-email {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#label-pass {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+#name-one {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    width: 90%;
+    outline: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+    border: 1px solid var(--cor0);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#name-one::placeholder {
+    font-size: 18px;
+    color: var(--cor1);
+}
+
+#name-two {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    width: 90%;
+    outline: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+    border: 1px solid var(--cor0);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#name-two::placeholder {
+    font-size: 18px;
+    color: var(--cor1);
+}
+
+#email {
+
+    display: block;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    width: 90%;
+    outline: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+    border: 1px solid var(--cor0);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#email::placeholder {
+    font-size: 18px;
+    color: var(--cor1);
+}
+
+#pass {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    width: 90%;
+    outline: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+    border: 1px solid var(--cor0);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#pass::placeholder {
+    font-size: 18px;
+    color: var(--cor1);
+}
+
+.cad {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+    padding: 15px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-color: var(--cor1);
+    border-radius: 9px;
+    font-size: 18px;
+    border: 2px solid var(--cor1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cad:hover {
+    background-color: var(--cor0);
+    transition-duration: 0.6s;
+    border: 2px solid var(--cor0);
+    color: var(--cor1);
+}
+
+@media screen and (min-width: 768px) {
+    .h1-box {
+    color: white;
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    }
+
+    .p-box {
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-size: 27px;
+    font-weight: bold;
+    }
+
+    .form {
+    height: 650px;
+    background-color: white;
+    padding: 25px;
+    display: block;
+    margin: 20px;
+    border-radius: 20px;
+    }
+
+    #label-one {
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: 35px;
+    }
+    
+    #label-two {
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        display: block;
+        margin-top: 20px;
+        margin-left: 35px;
+        
+    }
+    
+    #label-email {
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        display: block;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    
+    #label-pass {
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        display: block;
+        margin-top: 20px;
+        margin-left: 35px;
+    
+    }
+
+    #name-one {
+        display: block;
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        outline: none;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+        border: 1px solid var(--cor0);
+        border-radius: 5px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    #name-one::placeholder {
+        font-size: 18px;
+        color: var(--cor1);
+    }
+    
+    #name-two {
+        display: block;
+        margin: auto;
+        padding: 20px;
+        margin-top: 30px;
+        width: 90%;
+        outline: none;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+        border: 1px solid var(--cor0);
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    
+    #name-two::placeholder {
+        font-size: 18px;
+        color: var(--cor1);
+    }
+    
+    #email {
+    
+        display: block;
+        margin: auto;
+        padding: 20px;
+        margin-top: 30px;
+        width: 90%;
+        outline: none;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+        border: 1px solid var(--cor0);
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    
+    #email::placeholder {
+        font-size: 18px;
+        color: var(--cor1);
+    }
+    
+    #pass {
+        display: block;
+        margin: auto;
+        padding: 20px;
+        margin-top: 30px;
+        width: 90%;
+        outline: none;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+        border: 1px solid var(--cor0);
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    
+    #pass::placeholder {
+        font-size: 18px;
+        color: var(--cor1);
+    }
+    
+    .cad {
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493);
+        padding: 15px;
+        width: 80%;
+        margin-bottom: 10px;
+        background-color: var(--cor1);
+        border-radius: 9px;
+        font-size: 18px;
+        border: 2px solid var(--cor1);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .cad:hover {
+        background-color: var(--cor0);
+        transition-duration: 0.6s;
+        border: 2px solid var(--cor0);
+        color: var(--cor1);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .box {
+        display: flex;
+    }
+
+    .dados {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    
+    .form {
+        width: 70%;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

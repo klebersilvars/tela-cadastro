@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    </script>
+
+    <title>Kleber Coding cadastro</title>
+</head>
+<body>
+
+    <div class="box">
+        <div class="dados">
+            <h1 class="h1-box">Está afim de aprender HTML5 + CSS3 + JAVASCRIPT do zero?</h1>
+            <p class="p-box">Cadastre-se agora e venha participar do melhor curso de desenvolvimento web do Brasil.</p>
+        </div>
+
+        <div class="form">
+            <label id="label-one" for="">Nome:</label>
+            <input type="text" name="name-one" required placeholder="Nome" id="name-one">
+            <label id="label-two" for="">Sobrenome:</label>
+            <input type="text" name="name-two" required placeholder="Sobrenome" id="name-two">
+            <label id="label-email" for="">E-mail:</label>
+            <input type="email" name="email" required placeholder="Seu e-mail" id="email">
+            <label id="label-pass" for="">Senha:</label>
+            <input type="password" required placeholder="Sua senha" name="pass" id="pass">
+            <button id="cad" onclick="cadastrar()"  class="cad">Cadastre-se</button>
+        </div>
+    </div>
+    
+    <!--JAVASCRIPT-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!--SWEET ALERTS-->
+    <script type="module" src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+
+
+
+
+</body>
+</html>
